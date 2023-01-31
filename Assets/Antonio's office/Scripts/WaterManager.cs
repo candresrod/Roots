@@ -16,6 +16,8 @@ public class WaterManager : MonoBehaviour
 
     private void Update()
     {
+        //This loop is to adjust the mesh of the Water plane so that it fluctuates like water waves from the second you hit play.
+
         Vector3[] vertices = meshFilter.mesh.vertices;
         for (int i = 0; i < vertices.Length; i++)
         {
