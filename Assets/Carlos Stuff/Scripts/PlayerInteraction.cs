@@ -14,18 +14,20 @@ public class PlayerInteraction : MonoBehaviour
 
     private void OnBoat()
     {
+
         if (inBoat)
         {
-            boat.SetActive(false);
             player.SetActive(true);
+            boat.SetActive(false);
             inBoat = false;
         }
         else
         {
-            boat.SetActive(true);
             player.SetActive(false);
+            boat.SetActive(true);
             inBoat = true;
         }
+
     }
 
 }
