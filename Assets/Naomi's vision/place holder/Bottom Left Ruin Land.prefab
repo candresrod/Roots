@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1645217060863063517
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4206459851850225998, guid: 21283ff68dc6e154796ce45f5bee4407,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206459851850225998, guid: 21283ff68dc6e154796ce45f5bee4407,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7.7795324
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206459851850225998, guid: 21283ff68dc6e154796ce45f5bee4407,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 11.394987
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206459851850225998, guid: 21283ff68dc6e154796ce45f5bee4407,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.9478056
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206459851850225998, guid: 21283ff68dc6e154796ce45f5bee4407,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3291274
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206459851850225998, guid: 21283ff68dc6e154796ce45f5bee4407,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.3703413
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206459851850225998, guid: 21283ff68dc6e154796ce45f5bee4407,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206459851850225998, guid: 21283ff68dc6e154796ce45f5bee4407,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206459851850225998, guid: 21283ff68dc6e154796ce45f5bee4407,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206459851850225998, guid: 21283ff68dc6e154796ce45f5bee4407,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206459851850225998, guid: 21283ff68dc6e154796ce45f5bee4407,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206459851850225998, guid: 21283ff68dc6e154796ce45f5bee4407,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206459851850225998, guid: 21283ff68dc6e154796ce45f5bee4407,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684777204090342577, guid: 21283ff68dc6e154796ce45f5bee4407,
+        type: 3}
+      propertyPath: m_Name
+      value: Bottom Left Ruin Land Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 21283ff68dc6e154796ce45f5bee4407, type: 3}
