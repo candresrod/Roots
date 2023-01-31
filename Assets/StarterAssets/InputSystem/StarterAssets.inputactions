@@ -235,19 +235,19 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Jump",
-                    "type": "Button",
-                    "id": "2b41d343-414e-42d8-b880-92e448427f43",
-                    "expectedControlType": "Button",
+                    "name": "Sprint",
+                    "type": "PassThrough",
+                    "id": "e78f1d06-ba39-4864-8067-df9b8316dbaf",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Sprint",
-                    "type": "PassThrough",
-                    "id": "e78f1d06-ba39-4864-8067-df9b8316dbaf",
-                    "expectedControlType": "",
+                    "name": "Boat",
+                    "type": "Button",
+                    "id": "be3fa317-681a-42e5-b52a-222adcb8ce70",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -366,28 +366,6 @@
                 },
                 {
                     "name": "",
-                    "id": "e80c05f6-b086-4608-ab0a-4d4affa84f87",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "KeyboardMouse",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "98e3e3ae-cc4d-4f5b-8964-37101a40306b",
-                    "path": "<Gamepad>/buttonSouth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Gamepad",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "8c66cc7b-1269-4e3e-97a1-aeff7fe4cf01",
                     "path": "<Keyboard>/leftShift",
                     "interactions": "",
@@ -405,6 +383,28 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a12c5708-8737-4df2-b0b3-7f7147dbda19",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Boat",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e9a509c9-63c8-45bd-b938-1b76d68564ec",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Boat",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
