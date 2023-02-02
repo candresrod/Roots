@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerInLand : MonoBehaviour
 {
 
-    [SerializeField] GameObject player;
-    [SerializeField] GameObject gameOverMenu;
+    [SerializeField] private GameObject player;
+    [SerializeField] private GameObject gameOverMenu;
+    
 
     private PlayerInteraction playerInteraction;
 
@@ -41,6 +43,7 @@ public class PlayerInLand : MonoBehaviour
                 dead = true;
 
                 //------------The Following is made by Antonio Berrios (Mr. Berries)
+
                 player.SetActive(false);
                 gameOverMenu.SetActive(true);
 
