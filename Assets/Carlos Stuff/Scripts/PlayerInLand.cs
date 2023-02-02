@@ -5,6 +5,9 @@ using UnityEngine;
 public class PlayerInLand : MonoBehaviour
 {
 
+    [SerializeField] GameObject player;
+    [SerializeField] GameObject gameOverMenu;
+
     private PlayerInteraction playerInteraction;
 
     private bool inLand = false;
@@ -36,6 +39,11 @@ public class PlayerInLand : MonoBehaviour
             if (!playerInteraction.inBoat)
             {
                 dead = true;
+
+                //------------The Following is made by Antonio Berrios (Mr. Berries)
+                player.SetActive(false);
+                gameOverMenu.SetActive(true);
+
             }
         }
     }
