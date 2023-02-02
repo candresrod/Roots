@@ -10,16 +10,28 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField]
     private GameObject player;
 
+    private PlayerInLand playerInLand;
+
     public bool inBoat = false;
+
+    private void Awake()
+    {
+        playerInLand = GetComponent<PlayerInLand>();
+    }
 
     private void OnBoat()
     {
 
         if (inBoat)
         {
-            player.SetActive(true);
-            boat.SetActive(false);
-            inBoat = false;
+
+            if (playerInLand.inLand)
+            {
+                player.SetActive(true);
+                boat.SetActive(false);
+                inBoat = false;
+            }
+
         }
         else
         {

@@ -10,7 +10,7 @@ public class PlayerInLand : MonoBehaviour
 
     private PlayerInteraction playerInteraction;
 
-    private bool inLand = false;
+    public bool inLand = false;
     private bool dead = false;
 
     private void Awake()
