@@ -10,7 +10,7 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField]
     private GameObject player;
 
-    private bool inBoat = false;
+    public bool inBoat = false;
 
     private void OnBoat()
     {
