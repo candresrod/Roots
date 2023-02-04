@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    [SerializeField] GameObject door;
-    [SerializeField] GameObject switchOn1;
-    [SerializeField] GameObject switchOn2;
-    [SerializeField] GameObject switchOn3;
+   // [SerializeField] private GameObject door;
+    [SerializeField] private GameObject switchOn1;
+    [SerializeField] private GameObject switchOn2;
+    [SerializeField] private GameObject switchOn3;
+    [SerializeField] private GameObject Temple;
 
     private void Update()
     {
         if (switchOn1.activeSelf == false && switchOn2.activeSelf == false && switchOn3.activeSelf == false)
         {
-            door.GetComponent<Animator>().SetTrigger("DoorOpenTrigger");
+            //door.GetComponent<Animator>().SetTrigger("DoorOpenTrigger");
+            Temple.SetActive(true);
         }
     }
 }
