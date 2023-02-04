@@ -65,13 +65,18 @@ public class PlayerInLand : MonoBehaviour
                 dead = true;
 
                 //------------The Following is made by Antonio Berrios (Mr. Berries)
+                ActivateDeathMenu();
 
-                player.SetActive(false);
-                gameOverMenu.SetActive(true);
-
-                timerStart = true;
             }
         }
+    }
+
+    public void ActivateDeathMenu()
+    {
+        player.SetActive(false);
+        gameOverMenu.SetActive(true);
+
+        timerStart = true;
     }
 
 }
