@@ -6,17 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
     path: Assets/Antonio's office/Scene/Main Menu.unity
     guid: ff4967ccfb659184c8bd3b770ea0267e
-  - enabled: 1
-    path: Assets/Antonio's office/Scene/Antonio.unity
-    guid: 02e551ee08e3e8f408650db92521bf6f
-  - enabled: 1
-    path: Assets/Antonio's office/Scene/Puzzles.unity
-    guid: 8ffca6f637307274fbd04c3018eebf1f
   - enabled: 1
     path: Assets/Antonio's office/Scene/Tutorial.unity
     guid: ed4e2f3a914d0b04da1014c392387bc0
